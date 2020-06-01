@@ -88,18 +88,18 @@
                 <div class="experience__container">
                     <div class="experience__row">
                         <div class="experience__item">
-                            <h5>2013-2019</h5>
-                            <h3>Assitante comptable</h3>
-                            <h4>Gargant Studios</h4>
-                            <p>Sin le Noble</p>
+                            <h5 class="experience__date">2013-2019</h5>
+                            <h3 class="experience__title">Assitante comptable</h3>
+                            <h4 class="experience__name">Gargant Studios</h4>
+                            <p class="experience__location">Sin le Noble</p>
                         </div>
                     </div>
                     <div class="experience__row experience__row--inverted">
                         <div class="experience__item">
-                            <h5>2012</h5>
-                            <h3>Peintre</h3>
-                            <h4>Credeco</h4>
-                            <p>Vimy</p>
+                            <h5 class="experience__date">2012</h5>
+                            <h3 class="experience__title">Peintre</h3>
+                            <h4 class="experience__name">Credeco</h4>
+                            <p class="experience__location">Vimy</p>
                         </div>
                     </div>
                 </div>
@@ -114,24 +114,24 @@
                     <h2 class="title">Portfolio</h2>
                 </div>
                 <div class="row">
-                    <div class="col-sm-4">
+                    <div class="col-sm-4 portfolio__item">
                         <img src="images/cvgracehopper.png" alt="projet cv grace hopper" class="portfolio__image"/>
                     </div>
-                    <div class="col-sm-4">
+                    <div class="col-sm-4 portfolio__item">
                         <img src="images/resto.png" alt="projet restaurant" class="portfolio__image"/>
                     </div>
-                    <div class="col-sm-4">
+                    <div class="col-sm-4 portfolio__item">
                         <img src="images/voyage.png" alt="projet voyage" class="portfolio__image"/>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-sm-4">
+                    <div class="col-sm-4 portfolio__item">
                         <img src="images/jquery.png" alt="projet jquery" class="portfolio__image"/> 
                     </div>
-                    <div class="col-sm-4">
+                    <div class="col-sm-4 portfolio__item">
                         <img src="images/showtrack.png" alt="projet showtrack" class="portfolio__image"/>
                     </div>
-                    <div class="col-sm-4">
+                    <div class="col-sm-4 portfolio__item">
                         <img src="images/wordpress.png" alt="projet wordpress" class="portfolio__image"/>
                     </div>
                 </div>
@@ -148,20 +148,20 @@
                 <div class="row">
                     <div class="col-sm-6">
                         <div class="education__block">
-                            <h5>2020</h5>
-                            <h3>Pop School</h3>
-                            <h4>Lens</h4>
-                            <p>HTML/CSS</p>
-                            <p>Python</p>
+                            <h5 class="education__date">2020</h5>
+                            <h3 class="education__name">Pop School</h3>
+                            <h4 class="education__title">Lens</h4>
+                            <p class="education__text">HTML/CSS</p>
+                            <p class="education__text">Python</p>
                         </div>
                     </div>
                     <div class="col-sm-6">
                         <div class="education__block">
-                            <h5>2019</h5>
-                            <h3>UDEMY</h3>
-                            <h4>Formation online<br> "Développeur web"</h4>
-                            <p>HTML/CSS, Javascript, JQuery, PHP, MySQL</p>
-                            <p>Responsive Design, Wordpress</p>
+                            <h5 class="education__date">2019</h5>
+                            <h3 class="education__name">UDEMY</h3>
+                            <h4 class="education__title">Formation online<br> "Développeur web"</h4>
+                            <p class="education__text">HTML/CSS, Javascript, JQuery, PHP, MySQL</p>
+                            <p class="education__text">Responsive Design, Wordpress</p>
                         </div>
                     </div>
                 </div>
@@ -177,32 +177,32 @@
                 </div>
                 <div class="row">
                     <div class="col-lg-12">
-                        <form id="contact-form" method="post" action="" role="form"> 
+                        <form class="contact__form" method="post" action="" role="form"> 
                             <div class="row">
                                 <div class="col-md-6">
                                     <label for="firstname">Prénom</label>
-                                    <input type="text" id="firstname" name="firstname" class="form-control" placeholder="Votre prénom" value="">
+                                    <input type="text" id="firstname" name="firstname" class="contact__item" placeholder="Votre prénom" value="">
                                 </div>
 
                                 <div class="col-md-6">
                                     <label for="name">Nom</label>
-                                    <input type="text" id="name" name="name" class="form-control" placeholder="Votre nom" value="">
+                                    <input type="text" id="name" name="name" class="contact__item" placeholder="Votre nom" value="">
                                 </div>
 
                                 <div class="col-md-6">
                                     <label for="email">Email</label>
-                                    <input type="text" id="email" name="email" class="form-control" placeholder="Votre email" value="">
+                                    <input type="text" id="email" name="email" class="contact__item" placeholder="Votre email" value="">
                                 </div>
                                 <div class="col-md-6">
                                     <label for="Telephone">Téléphone</label>
-                                    <input type="text" id="phone" name="phone" class="form-control" placeholder="Votre téléphone" value="">
+                                    <input type="text" id="phone" name="phone" class="contact__item" placeholder="Votre téléphone" value="">
                                 </div>
                                 <div class="col-md-12">
                                     <label for="message">Message</label>
-                                    <textarea id="message" name="message" class="form-control" placeholder="Votre message" rows="4"></textarea>
+                                    <textarea id="message" name="message" class="contact__item--message" placeholder="Votre message"></textarea>
                                 </div>
                                 <div class="col-md-12">
-                                    <input type="submit" class="button" value="Envoyer">
+                                    <input type="submit" class="contact__button button" value="Envoyer">
                                 </div>
                             </div>
                         </form>
