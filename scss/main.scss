@@ -169,6 +169,18 @@
       }
   }
 
+  /* PORTFOLIO */
+
+  .portfolio{
+    &__image {
+    box-shadow: 10px 10px black;
+    width: 100%;
+    height: 100%;}
+  
+    &__item{
+    margin-bottom : 30px;}
+  }
+
   /* EDUCATION */
 
   .education {
@@ -193,20 +205,6 @@
       &__title{
       margin-bottom: 20px; }
   
-      &__text {
-      font-weight: bold; }
-  }
-  
-  /* PORTFOLIO */
-
-  .portfolio{
-    &__image {
-    box-shadow: 10px 10px black;
-    width: 100%;
-    height: 100%;}
-  
-    &__item{
-    margin-bottom : 30px;}
   }
   
   /* CONTACT */
