@@ -151,11 +151,12 @@ section {
 
 .education__date {
   color: #888;
-  font-size: 15px;
+  font-size: 20px;
   margin-bottom: 15px; }
 
 .education__name {
-  color: #fff; }
+  color: #fff;
+  text-transform: uppercase; }
 
 .education__title {
   margin-bottom: 20px; }

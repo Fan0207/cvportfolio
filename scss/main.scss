@@ -196,11 +196,12 @@
   
       &__date {
       color: #888;
-      font-size: 15px;
+      font-size: 20px;
       margin-bottom: 15px; }
     
       &__name {
-      color: $color-white; }
+      color: $color-white;
+      text-transform: uppercase; }
   
       &__title{
       margin-bottom: 20px; }
